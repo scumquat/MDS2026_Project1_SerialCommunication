@@ -2,6 +2,16 @@
  
  This project demonstrates a minimal reproducible example for setting up a Python program with two classes. 
 
+TODO
+An intro
+Short background with at least 2 references
+Build of materials
+Images for wiring and a table for connected pins (not ALL pins)
+General steps for the experiment process, including where the code was run 
+Results when you run the code
+Short discussion of the experiment and what it did.
+IEEE style references
+
  
 ## Table of Contents
 * [Requirements](#requirements)
