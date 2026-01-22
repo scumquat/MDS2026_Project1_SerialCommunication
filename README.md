@@ -49,9 +49,13 @@ In order to show data output through two serial ports on a laptop, the TTL-USB c
 
 Connect the Green Tx line to the port specified in the script.  Connect the white Rx line to the Tx port specified in the script.  These are selected by the user and can be changed as needed, and in this application we will use 3 and 2, respectively.
 
-With both connections made, the serial monitor in arduino can  be used to visualize one data stream while a second serial monitor can be used to visualize the other.
+With both connections made, the serial monitor in arduino can  be used to visualize one data stream while a second serial monitor can be used to visualize the other.  In this case, PuTTY was used.  Ports can be found in the device manager of the computer.
 
 ## Part 2
+
+Python can be a useful tool for understanding and manipulating serial communication.  The pyserial library can be used to connect, read and write information across serial ports.
+
+
 
 ## Error Handling
 
