@@ -19,6 +19,11 @@ IEEE style references
 * [Error Handling](#error-handling)
 * [References](#references)
 
+Hardware Serial is a mode of communication that uses hardware such as UART protocols to convey information between nodes.  Arduino boards typically have dedicated pins for software serial, and in the case of the Uno they are pins 0 and 1.  They are labeled Rx and Tx and are able to exchange information at a much faster rate than other means.  Alternatively, software serial is a method of serial communication that sends information across any digital output.  It is possible to communicate through more channels simultaneously but it is limited by a lower maximum baud rate. [1]
+
+A TTL cable (Transistor-Transistor Logic) is a mode of communication that allows for simple serial interfacing with a wide variety of devices.  Some vary in output pins, but most if not all are comprised of a Tx, Rx, GND, and V+ connections.  In this case, we use a TTL-USB cable to interface with the computer and the Arduino board.  The cable used in these projects outputs 5V across the power cable, and produces 3.3V logic signals along the Tx/Rx lines. [2]
+
+While normal means of 
 
 ## Requirements
 
@@ -37,6 +42,9 @@ This program can be run through main.py
 
 There are two classes that main.py calls: ClassOne and ClassTwo.  Both classes allow outside function calls to add, clear, and get array values. ClassOne takes no input at initialization. ClassTwo takes an array at initialization.
 
+## Part 1
+
+## Part 2
 
 ## Error Handling
 
@@ -45,6 +53,7 @@ This project does not have any error handling.
 
 ## References
 
-This repo does not  have any references, but if using materials such as tutorials, websites, publications, etc. this is where they should be added in IEEE format.
+[1] https://exam.pscnotes.com/difference-between-hardware-serial-and-software-serial-in-arduino/
 
+[2] https://www.adafruit.com/product/954
 
